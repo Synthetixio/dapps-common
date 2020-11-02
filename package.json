@@ -4,7 +4,7 @@
 	"description": "Common code for Synthetix powered dapps",
 	"scripts": {
 		"tsc": "tsc --noEmit",
-		"lint": "eslint . --ext ts,.tsx && tsc",
+		"lint": "eslint . --ext ts,.tsx && npm run tsc",
 		"lint:fix": "eslint . --ext ts,.tsx --fix",
 		"format": "prettier --write \"**/*.{ts,tsx}\"",
 		"prepare": "npm run build",
