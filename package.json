@@ -6,7 +6,9 @@
 		"tsc": "tsc --noEmit",
 		"lint": "eslint . --ext ts,.tsx && tsc",
 		"lint:fix": "eslint . --ext ts,.tsx --fix",
-		"format": "prettier --write \"**/*.{ts,tsx}\""
+		"format": "prettier --write \"**/*.{ts,tsx}\"",
+		"prepare": "npm run build",
+		"build": "tsc"
 	},
 	"devDependencies": {
 		"@types/lodash": "^4.14.164",
