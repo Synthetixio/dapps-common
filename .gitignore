@@ -16,6 +16,7 @@ lint-results.sarif
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
