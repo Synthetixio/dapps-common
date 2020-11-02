@@ -1,6 +1,6 @@
 {
 	"name": "@synthetixio/dapps-common",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Common code for Synthetix powered dapps",
 	"scripts": {
 		"tsc": "tsc --noEmit",
